@@ -20,7 +20,7 @@ public class Hospital {
                     HospitalPatient patient = new HospitalPatient(name, priority);
                     pq.offer(patient);
                 } catch (NumberFormatException e) {
-                    // TODO: handle exception
+                    //  do nothing, skip this line
                 }
 
             }
